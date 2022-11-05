@@ -10,13 +10,13 @@ import org.mockito.Mockito;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class LionHasMineParametrizedTest {
+public class LionHasManeParametrizedTest {
 
     private Feline feline = Mockito.mock(Feline.class);
     private final String sex;
     private final Boolean result;
 
-    public LionHasMineParametrizedTest(String sex, Boolean result) {
+    public LionHasManeParametrizedTest(String sex, Boolean result) {
         this.sex = sex;
         this.result = result;
     }
